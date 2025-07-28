@@ -1,0 +1,22 @@
+@font-face {
+    font-family: bitcount;
+    src: url(/Bitcount_Prop_Single/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: bitcount;
+    font-size: 50px;
+}
+.kotor{
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+.dVader{
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: black;
+}
