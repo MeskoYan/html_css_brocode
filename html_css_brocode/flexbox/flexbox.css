@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    flex-direction: row;
+    align-items: baseline;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+    order: 1;
+}
+#box_1{
+    background-color: red;
+}
+#box_2{
+    background-color: blue;
+}
+#box_3{
+    background-color: green;
+}
+#box_4{
+    align-self: flex-end;
+    background-color: yellow;
+}

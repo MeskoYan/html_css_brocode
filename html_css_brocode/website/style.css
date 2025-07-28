@@ -1,0 +1,86 @@
+@font-face {
+    font-family: bitcount;
+    src: url(/Bitcount_Prop_Single/BitcountPropSingle-VariableFont_CRSV\,ELSH\,ELXP\,slnt\,wght.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: bitcount;
+    font-size: 1.96em;
+    color: white;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+}
+h2{
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    font-family: bitcount;
+}
+body{
+    margin: 0px;
+    background-image: url(/Images/611781.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.navigation_bar ul{
+    background-color: hsl(0, 0%, 50%);
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.navigation_bar li{
+    display: inline-block;
+}
+.navigation_bar a{
+    text-decoration: none;
+}
+.fa-notdog-duo.fa-solid.fa-house.fa-2xl{
+    color: hsla(0, 0%, 90%, 1);
+}
+.fa-notdog-duo.fa-solid.fa-house.fa-2xl:hover{
+    color: hsl(0, 0%, 70%);
+}
+.fa-brands.fa-github.fa-2xl{
+    color: hsl(278, 100%, 29%);
+}
+.fa-brands.fa-github.fa-2xl:hover{
+    color: hsl(278, 100%, 19%);
+}
+.fa-brands.fa-youtube.fa-2xl{
+    color: hsl(0, 100%, 35%);
+}
+.fa-brands.fa-youtube.fa-2xl:hover{
+    color: hsl(0, 100%, 25%);
+}
+.main{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.linkImg{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#link_ref:hover{
+    background-color: rgba(128, 128, 128, 0.233);
+    border-radius: 15px;
+}
+#link_button{
+    border-radius: 10px;
+}
